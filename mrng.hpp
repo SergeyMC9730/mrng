@@ -2,9 +2,9 @@
 
 #include <stdint.h>
 
-inline long int mrng(){
+inline int mrng(){
   uintptr_t base = 0;
-  long int rng = -(static_cast<unsigned int>(reinterpret_cast<uintptr_t>(&base) / 256);
+  int rng = -(static_cast<long int>(reinterpret_cast<uintptr_t>(&base) / 256);
   
   return rng;
 }
