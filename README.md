@@ -1,4 +1,4 @@
 # rng
-True RNG based on dynamic memory allocation **on x86_64 Linux**
+True RNG based on dynamic memory allocation **for Linux**
 # Installing
 Its just one .hpp file, just `#include "mrng.hpp"`
