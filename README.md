@@ -1,4 +1,4 @@
-# rng
+# mrng
 True RNG based on dynamic memory allocation **for Linux**
-# Installing
-Its just one .hpp file, just `#include "mrng.hpp"`
+# Using
+This is a header-only library. For using just include it.
